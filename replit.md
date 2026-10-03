@@ -1,6 +1,6 @@
-# [Project name]
+# Freelance Web Design Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A responsive portfolio for a freelance web designer offering remote website design to small businesses.
 
 ## Run & Operate
 
@@ -22,23 +22,28 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/web-design-portfolio/src/App.tsx` — portfolio page content and navigation
+- `artifacts/web-design-portfolio/src/site-config.ts` — editable name, contact details, prices, and featured-project URL
+- `artifacts/web-design-portfolio/src/index.css` — site styles and responsive behavior
+- `artifacts/web-design-portfolio/index.html` — page title, SEO description, and social metadata
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The portfolio is frontend-only; contact actions use WhatsApp and email links.
+- Contact and identity details are centralized in `site-config.ts` so they can be replaced without editing page content.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Presents freelance website-design services, three starting-price packages, a featured Royal Cuts Barbershop project, remote-work approach, and contact options.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Do not invent client work or testimonials. Only represent projects and published links that the user has actually supplied.
+- Keep contact information as explicit placeholders until the user provides real details.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The Royal Cuts URL is still a placeholder; set the URL and mark it non-placeholder in `site-config.ts` before linking to the published project.
 
 ## Pointers
 
