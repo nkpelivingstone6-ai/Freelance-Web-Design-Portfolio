@@ -8,7 +8,7 @@ export const siteConfig = {
   role: 'Independent web designer',
   phoneDisplay: '0543418409',
   whatsappNumber: '233543418409',
-  email: 'hello@yourdomain.com',
+  email: 'nkpelivingstone6@gmail.com',
   // Replace this URL and set projectUrlIsPlaceholder to false when the site is live.
   projectUrl: 'https://replace-with-royal-cuts-site.example',
   projectUrlIsPlaceholder: true,
