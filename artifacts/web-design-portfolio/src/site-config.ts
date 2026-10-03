@@ -3,7 +3,7 @@
  * so the portfolio can be personalized without touching the page components.
  */
 export const siteConfig = {
-  name: 'BIlly Portfolio',
+  name: 'Billy Portfolio',
   initials: 'BP',
   role: 'Independent web designer',
   phoneDisplay: '0543418409',
