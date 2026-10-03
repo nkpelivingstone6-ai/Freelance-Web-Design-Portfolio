@@ -137,7 +137,7 @@ function App() {
               {plans.map((plan) => (
                   <article className={`price-card${plan.name === 'Business' ? ' featured' : ''}`} key={plan.name} data-testid={`card-price-${plan.name.toLowerCase()}`}>
                   <small>Starting at</small><h3 className="serif">{plan.name}</h3>
-                  <div className="price">{plan.price}</div><div className="price-note">USD · project starting price</div>
+                  <div className="price">{plan.price}</div><div className="price-note">{siteConfig.currency} · project starting price</div>
                   <p className="price-desc">{plan.description}</p>
                   <ul className="price-list">{plan.includes.map((item) => <li key={item}>{item}</li>)}</ul>
                   <a className="button" href={whatsappFor(`Hi, I would like to ask about the ${plan.name} website package.`)} target="_blank" rel="noreferrer" data-testid={`link-price-${plan.name.toLowerCase()}`}>Ask about {plan.name} <ArrowRight size={14} /></a>
